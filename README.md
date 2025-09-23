@@ -8,8 +8,10 @@
 
 2. Run the workflow
 `bash start_app.sh`
-or 
-`python wf_orchestrate.py`
+which sets environment and executes `wf_orchestrate.py`
 
+## Run the project in Docker
+
+`bash run-docker.sh` 
 
 Made with ❤️ in Ukraine 🇺🇦 Dmytro Voytko
