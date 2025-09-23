@@ -3,13 +3,14 @@ echo
 echo '1. STARTING WORKFLOW'
 echo
 
+echo '1.1. Setting environment'
 export DATAWAREHOUSE=duckdb
 export DUCKDB_CONNECTION=data/stocks.db
 echo $DATAWAREHOUSE
 echo $DUCKDB_CONNECTION
 
 echo
-echo '1.1. WORKFLOW ORCHESTRATE'
+echo '1.2. WORKFLOW ORCHESTRATE'
 python wf_orchestrate.py --mode=$DATAWAREHOUSE
 
 # echo
