@@ -12,7 +12,7 @@ DEBUG_LOGS = False # True # False
 DATA_DIR = f'./data/'  # ! with '/' at the end!
 VISUALS_DIR = './visuals/'
 
-SCRAPE = False # True # False 
+SCRAPE = True # True # False 
 START_YEAR = 2015 # 2010
 START_DATE = f'{START_YEAR}-01-01'
 
