@@ -67,8 +67,17 @@ which sets environment and executes `wf_orchestrate.py`
 
 #### Run the project in Docker (as well works in Codespaces)
 
-Simply run 
-`bash run-docker.sh` 
+1. **Run `bash run-docker.sh` to nuild and start app container**. As packages include some quite heavy packages like Prefect, building container takes some time (~3min). 
+
+![docker-build](/screenshots/docker-00.png)
+
+When you see these messages the workflow has started
+
+![docker-run](/screenshots/docker-01.png)
+
+Tickers data is being downloaded
+
+![docker-run](/screenshots/docker-02.png)
 
 ### :mag_right: Modeling results
 
