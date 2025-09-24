@@ -83,16 +83,18 @@ If you want to experiment with different stocks, edit `ticker_sets` in `settings
 
 ### :mag_right: Modeling results
 
-After running the workflow resulted models and financial metrics can be found in `data` folder:
+After running the workflow resulted models can be found in `data` folder:
 - `RandomForest_model.joblib` and `RandomForest.json`
 - `DecisionTree_model.joblib` and `DecisionTree.json`
 - `adaboost_model.joblib` and `adaboost.json`
 
 ![docker-run](/screenshots/modeling-results.png)
 
-For example
+and financial metrics in .json format, for example (in files data is formatted for readability)
 
 ![docker-run](/screenshots/fin-metrics-0.png)
+
+![docker-run](/screenshots/fin-metrics-1.png)
 
 Also in logs you can find correlations of features for each classifier, for example
 
