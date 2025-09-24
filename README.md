@@ -106,6 +106,10 @@ Also in logs you can find correlations of features for each classifier, for exam
 
 Comparing financial metrics we can decide which model words better for selected set of tickers.
 
+Simulation gives opportunity to see results of the 30-day prediction estimation like this
+
+![docker-run](/screenshots/modeling-prediction.png)
+
 Information about stocks can be found in 2 files:
 - `snp500.csv` with the list of companies, sectors and tickers
 - `tickers_prices.csv` with tickers prices + some calculated features like ma_10,ma_20,ema_20,momentum,volatility,next_day_return
