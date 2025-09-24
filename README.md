@@ -68,6 +68,7 @@ By default workflow will use simple portable warehouse - DuckDb database (you ca
 2. Run the workflow
 `bash start_app.sh`
 which sets environment and executes `wf_orchestrate.py`
+It can be re-run via Cron job on daily basis.
 
 #### Run the project in Docker (as well works in Codespaces)
 
