@@ -118,4 +118,24 @@ This gives opportunity to check what stocks had lower/higher volatility during l
 
 All this information makes you feel more comforatble in making decision what companies consider for investing.
 
+
+## 🔜 Next steps
+
+Stock/Crypto Analitics is a very interesting topic, especially now when market grows after months of panic and high volatility!
+
+I plan to analyze more tecnical indicators, visualize data and use more advanced models to play with predictions, I think it would be interesting!
+
+Stay tuned!
+
+
+## Support
+
+🙏 Thank you for your attention and time!
+
+- If you experience any issue while following this instruction (or something left unclear), please add it to [Issues](/issues), I'll be glad to help/fix. And your feedback, questions & suggestions are welcome as well!
+- Feel free to fork and submit pull requests.
+
+If you find this project helpful, please ⭐️star⭐️ my repo 
+https://github.com/dmytrovoytko/stock-market-data-engineering to help other people discover it 🙏
+
 Made with ❤️ in Ukraine 🇺🇦 Dmytro Voytko
