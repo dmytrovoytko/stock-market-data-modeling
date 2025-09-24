@@ -88,6 +88,8 @@ After running the workflow resulted models and financial metrics can be found in
 - `DecisionTree_model.joblib` and `DecisionTree.json`
 - `adaboost_model.joblib` and `adaboost.json`
 
+![docker-run](/screenshots/modeling-results.png)
+
 For example
 
 ![docker-run](/screenshots/fin-metrics-0.png)
