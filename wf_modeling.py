@@ -410,7 +410,7 @@ class TrainModel:
 
     def make_prediction(self, pred_name:str):
         # https://scikit-learn.org/stable/modules/ensemble.html#random-forests-and-other-randomized-tree-ensembles
-        logger.debug('  --> Making prediction: {pred_name}')
+        logger.debug(f'  --> Making prediction: {pred_name}')
         
         y_pred_all = self.model.predict_proba(self.X_all)
         y_pred_all_class1 = [k[1] for k in y_pred_all] #list of predictions for class "1"

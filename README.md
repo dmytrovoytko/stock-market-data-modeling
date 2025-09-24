@@ -79,6 +79,8 @@ Tickers data is being downloaded
 
 ![docker-run](/screenshots/docker-02.png)
 
+If you want to experiment with different stocks, edit `ticker_sets` in `settings.py`, and then run the workflow again. 
+
 ### :mag_right: Modeling results
 
 After running the workflow resulted models and financial metrics can be found in `data` folder:
@@ -86,5 +88,12 @@ After running the workflow resulted models and financial metrics can be found in
 - `DecisionTree_model.joblib` and `DecisionTree.json`
 - `adaboost_model.joblib` and `adaboost.json`
 
+For example
+
+![docker-run](/screenshots/fin-metrics-0.png)
+
+Also in logs you can find correlations of features for each classifier, for example
+
+![docker-run](/screenshots/features-correlations.png)
 
 Made with ❤️ in Ukraine 🇺🇦 Dmytro Voytko
