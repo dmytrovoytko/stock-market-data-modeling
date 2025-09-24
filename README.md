@@ -15,9 +15,13 @@ Which of them are good/bad to buy & sell just right now, and which are good to b
 
 My main interest is in The Magnificent 7 stocks - seven of the world's biggest and most influential tech companies: Apple, Microsoft, Amazon, Alphabet (Google)... Should I invest in particular companies (like Magnificent 7) or investing in S&P 500 index funds would be a better/safer choice for me?
 
-So I decide to better understand it by "playing" with data the way we want, not as investors channels present us. And let's MLOps help me with that!
+What ML models would be able to predict market trends? which model would work better?
 
-I decided to collect historical data of stocks, enrich it, put it into convenient portable warehouse (DuckDB) and experiment with modeling using different ML classifiers (RandomForest, DecisionTree, AdaBoost).
+Many questions...
+
+So I decided to better understand it by "playing" with data the way I want, not as investors channels present us. And let's my MLOps skills help me with that!
+
+I decided to collect historical data of stocks, enrich it, put it into convenient portable warehouse (DuckDB) and experiment with modeling using different ML classifiers (RandomForest, DecisionTree, AdaBoost). Then compare results.
 Let's see how well I can deal with that!
 
 ## 🎯 Goals
@@ -90,7 +94,7 @@ After running the workflow resulted models can be found in `data` folder:
 
 ![docker-run](/screenshots/modeling-results.png)
 
-and financial metrics in .json format, for example (in files data is formatted for readability)
+and different financial metrics in .json format, for example (in files data is formatted for readability)
 
 ![docker-run](/screenshots/fin-metrics-0.png)
 
@@ -99,5 +103,15 @@ and financial metrics in .json format, for example (in files data is formatted f
 Also in logs you can find correlations of features for each classifier, for example
 
 ![docker-run](/screenshots/features-correlations.png)
+
+Comparing financial metrics we can decide which model words better for selected set of tickers.
+
+Information about stocks can be found in 2 files:
+- `snp500.csv` with the list of companies, sectors and tickers
+- `tickers_prices.csv` with tickers prices + some calculated features like ma_10,ma_20,ema_20,momentum,volatility,next_day_return
+
+This gives opportunity to check what stocks had lower/higher volatility during last months.
+
+All this information makes you feel more comforatble in making decision what companies consider for investing.
 
 Made with ❤️ in Ukraine 🇺🇦 Dmytro Voytko
