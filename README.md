@@ -60,6 +60,13 @@ By default workflow will use simple portable warehouse - DuckDb database (you ca
 
 ### :arrow_forward: Run workflow
 
+#### Create and Start CodeSpace
+
+To create a GitHub Codespace from the repo just click the green button **'Code'** and then 'Create codespace'. Learn more on GitHub Codespaces [here](https://docs.github.com/codespaces).
+Then wait for CodeSpace to initialize. Usually it detects requirements.txt and installs it, it takes some time to finish. If that didn't happen (or just to be sure everything is set properly) follow the instructions to install requirements below.
+
+![Create codespace](/screenshots/codespaces.png)
+
 #### Run the project locally / in Codespaces
 
 1. Install packages
@@ -72,7 +79,7 @@ It can be re-run via Cron job on daily basis.
 
 #### Run the project in Docker (as well works in Codespaces)
 
-1. **Run `bash run-docker.sh` to nuild and start app container**. As packages include some quite heavy packages like Prefect, building container takes some time (~3min). 
+1. **Run `bash run-docker.sh` to build and start app container**. As packages include some quite heavy packages like Prefect, building container takes some time (~3min). 
 
 ![docker-build](/screenshots/docker-00.png)
 
